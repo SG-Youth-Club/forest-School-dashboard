@@ -74,7 +74,7 @@ function exportPDF() {
 
     const opt = {
         margin: 0,
-        filename: "Spectrum-Youth-Club.pdf",
+        filename: "Forest School.pdf",
         image: {
             type: "jpeg",
             quality: 1
@@ -85,7 +85,7 @@ function exportPDF() {
         },
         jsPDF: {
     unit: "px",
-    format: [1200, element.scrollHeight + 200]
+    format: [1200, element.scrollHeight + 300]
         }
     };
 
